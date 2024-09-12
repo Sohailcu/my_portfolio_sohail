@@ -15,7 +15,7 @@ const Project = () => {
       </h1>
       </div>
     <div className="flex flex-wrap -m-8 -mt-[5rem]">
-      {/*Project*/}
+      {/*Project1*/}
       <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
@@ -25,10 +25,10 @@ const Project = () => {
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-              Catering Project
+              IT MAN PAKISTAN
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              CATERING
+              CATERING Project
             </h1>
             <p className="leading-relaxed line-clamp-2">
               This is the Project which I've created for those who owns a 
@@ -42,7 +42,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-        {/*Project*/}
+        {/*Project2*/}
         <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
@@ -52,10 +52,10 @@ const Project = () => {
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-              Sms Project
+              IT MAN PAKISTAN
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              SMS
+              SMS Project
             </h1>
             <p className="leading-relaxed line-clamp-2">
             This is the Project which I've created for those who owns a Small 
@@ -69,24 +69,101 @@ const Project = () => {
           </div>
         </div>
       </div>
-       {/*Project*/}
+      {/*Project3*/}
+      <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/projects/CountDownTimer.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+              IT MAN PAKISTAN
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+              CountDown Timer
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            This is the Project which I've Created a CountDownTimer with Node.Js & Tailwind CSS with a user-friendly layout.
+            </p>
+            <Link target="_blank" href={""}>
+            <p className="leading-relaxed text-blue-500 hover:underline">
+                View Project..
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+       {/*Project4*/}
        <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
         <div className="flex relative">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/projects/kamilproject.jpg")}
+            src={require("../../../public/assets/projects/ToDoList.jpg")}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-              Sales Guru
+              IT MAN PAKISTAN
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              KAMIL HASSAN
+              ToDo List
             </h1>
             <p className="leading-relaxed line-clamp-2">
-            This is the Project which I've Created a professional portfolio website for Kamil Hassan, showcasing his work, 
-            achievements, and skills in a clean, modern design.The site highlights Kamil's projects through engaging visuals and a user-friendly layout.
+            This is the Project which I've Created a Todo List with HTML, CSS, JavaScript & Tailwind CSS with a user-friendly layout.
+            </p>
+            <Link target="_blank" href={""}>
+            <p className="leading-relaxed text-blue-500 hover:underline">
+                View Project..
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+       {/*Project5*/}
+       <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/projects/Vehicle_Enter_Exit.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+              IT MAN PAKISTAN
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+              Vehicle Enter & Exit Form
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            This is the Project which I've Created a Vehilce Enter & Exit form with HTML, CSS, JavaScript with a user-friendly layout.
+            </p>
+            <Link target="_blank" href={""}>
+            <p className="leading-relaxed text-blue-500 hover:underline">
+                View Project..
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+       {/*Project6*/}
+       <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/projects/EDITABLE RESUME BUILDER.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+              IT MAN PAKISTAN
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+              Editable Resume Builder
+            </h1>
+            <p className="leading-relaxed line-clamp-2">
+            This is the Project which I've Created a Editable Resume Builder with HTML, CSS, TypeScript & JavaScript with a user-friendly layout as my Q2 Class Assignment.
             </p>
             <Link target="_blank" href={""}>
             <p className="leading-relaxed text-blue-500 hover:underline">

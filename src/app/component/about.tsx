@@ -29,7 +29,7 @@ const About = () => {
         where I contribute to our innovative projects.
       </p>
       <div className="flex justify-center">
-        <Link target='_blank' href={"/assets/cv/my resume.pdf"}>
+        <Link target='_blank' href={"/assets/cv/Sohail Ahmed (Resume AM-HR).pdf"}>
         <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
           View CV
         </button>
